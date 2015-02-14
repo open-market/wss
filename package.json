@@ -1,6 +1,6 @@
 {
   "name": "open-market-wss",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Open Market's WebSocket server",
   "main": "server.js",
   "scripts": {

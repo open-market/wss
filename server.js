@@ -10,7 +10,7 @@ var debug     = require('debug')('open-market:wss'),
 
 var redisClient = redis.createClient(env.REDIS_PORT, env.REDIS_HOST,
                                     { auth_pass: env.REDIS_PASS }),
-    wss         = new WebSocket({ port: 8080 });
+    wss         = new WebSocket({ port: env.PORT || 8080 });
 
 /**
  * Clients currently connected
