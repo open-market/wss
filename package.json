@@ -1,0 +1,17 @@
+{
+  "name": "open-market-wss",
+  "version": "1.0.0",
+  "description": "Open Market's WebSocket server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Alvin Lazaro <me@alvinl.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.1.1",
+    "redis": "^0.12.1",
+    "ws": "^0.7.1"
+  }
+}
